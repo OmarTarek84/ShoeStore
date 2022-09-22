@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/shoestoredbserver/databases/ShoeStore",
+      "type": "mssql.azure",
+      "connectionId": "DB_CONNECTION_STRING"
+    }
+  }
+}
